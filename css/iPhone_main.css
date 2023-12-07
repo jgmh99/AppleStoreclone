@@ -1,0 +1,296 @@
+ /* 여기부터 공통적인 헤더 영역 입니다. -복붙해서 쓰세요 */
+ body{
+    /* overflow-x: hidden; */
+    background-color: rgb(245, 245, 247);
+   
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+}
+.header_1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 12px;
+    gap: 10px;
+}
+.logo,.header_1 > .store,.mac,.ipad,.iphone,.watch,.airpods,.tv,.enter,.header_1 > .acc,.header_1 > .help,.search,.bag{
+    width: calc(100% / 13);    
+}
+.logo{
+    width: 32px;    
+    background: url(../img/realapplelogo.png)no-repeat center / contain;
+    background-size: 32px 32px;
+}
+.search{
+    background: url(../img/black_search_icon.png)no-repeat center / contain;
+    background-size: 20px 20px;
+}
+.bag{
+    width: 20px;
+    background: url(../img/buy_bag.png)no-repeat center / contain;
+    background-size: 20px 20px;
+}/* 여기까지 공통적인 헤더 영역 입니다. -복붙해서 쓰세요*/
+.iphone_banner_w{
+    background-color: #fff;
+}
+.iphone_banner{
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    line-height: 50px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 12px;
+    gap: 10px;
+}
+.iphone_banner > .iphone_14pro,.iphone_banner > .iphone_14,.iphone_banner > .iphone_13,
+.iphone_banner > .iphone_se,.iphone_banner > .iphone_12,.iphone_banner > .compare,
+.iphone_banner > .airpods,.iphone_banner > .airtags,
+.iphone_banner > .acc,.iphone_banner > .ios,.iphone_banner > .shoping{
+    width: calc(100% / 11);
+
+    margin-top: 10px;
+    position: relative;
+}
+.iphone_14pro,.iphone_14{
+    background: url(../img/iPhone_page/iphone_main/iphone14.png)no-repeat top / contain;
+    background-size: 54px 40px;
+}
+.iphone_13{
+    background: url(../img/iPhone_page/iphone_main/iphone12.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.iphone_se{
+    background: url(../img/iPhone_page/iphone_main/iphone_se.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.iphone_12{
+    background: url(../img/iPhone_page/iphone_main/iphone12.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.compare{
+    background: url(../img/iPhone_page/iphone_main/compare.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.iphone_banner > .airpods{
+    background: url(../img/iPhone_page/iphone_main/airpods.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.iphone_banner .airtags{
+    background: url(../img/iPhone_page/iphone_main/icon-airtag.svg)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.iphone_banner > .acc{
+    background: url(../img/iPhone_page/iphone_main/phone-case.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.compare{
+    background: url(../img/iPhone_page/iphone_main/compare.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.ios{
+    background: url(../img/iPhone_page/iphone_main/ios.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.shoping{
+    background: url(../img/iPhone_page/iphone_main/shoping.png)no-repeat top / contain;
+    background-size: 40px 40px;
+}
+.iphone_banner_txt{
+    position: absolute;
+    line-height: 16px;
+    width: 100%;
+    height: 16px;
+    bottom: 16px;
+    left: 0;
+}
+.banner_new{
+    color: red;
+    font-size: 10px;
+    width: 100%;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.iphone_back{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(245, 245, 247);
+  
+    position: relative;
+}
+.iphone_back_txt{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.iphone_back a{
+    color: blue;
+}
+/* 아래 배너만 수정하면 나머지 동일함 */
+.iphone14_banner{
+    margin-top: 90px;
+    background-color: #fff;
+}
+
+.new{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 25px;
+}
+.new > p:nth-child(1){
+    color: gray;
+    font-size: 20px;
+}
+.new > p:nth-child(2){
+    font-size: 30px;
+}
+.new > p:nth-child(3){
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+}
+.new > p:nth-child(4){
+    font-size: 20px;
+    padding-top: 20px;
+}
+.new > input{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #0071e3;
+    border: none;
+    color: #fff;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.new > img{
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+
+.iphone14pro_banner{
+    /* margin-top: 90px; */
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.iphone14pro_banner > .w_1200 > .pro_new{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 25px;
+}
+.iphone14pro_banner > .w_1200 > .pro_new > p:nth-child(1){
+    color: #000;
+    font-size: 20px;
+
+}
+.iphone14pro_banner > .w_1200 > .pro_new > p:nth-child(2){
+    font-size: 30px;
+    color: #fff;
+}
+.iphone14pro_banner > .w_1200 > .pro_new > p:nth-child(3){
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+    color: #fff;
+}
+.iphone14pro_banner > .w_1200 > .pro_new > p:nth-child(4){
+    font-size: 20px;
+    padding-top: 20px;
+    color: #fff;
+}
+.iphone14pro_banner > .w_1200 > .pro_new > input{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #0071e3;
+    border: none;
+    color: #fff;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.iphone14pro_banner > .w_1200 > .pro_new > a{
+    color: #fff;
+}
+.iphone14pro_banner > .w_1200 > .pro_new > img{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.iphonese_banner{
+    width: 100%;
+    /* margin-bottom: 30px; */
+    background: #fff;
+}
+.iphonese_banner > .w_1200 > .se_new{
+    width: 50%;
+    height: 830px;
+    text-align: center;
+    padding-top: 25px;
+    float: left;
+    background-color:#fbfbfd
+}
+.iphonese_banner > .w_1200 > .se_new > p:nth-child(1){
+    color: #000;
+    font-size: 20px;
+    transform: translateY(255px);
+}
+.iphonese_banner > .w_1200 > .se_new > p:nth-child(2){
+    font-size: 30px;
+    transform: translateY(255px);
+}
+.iphonese_banner > .w_1200 > .se_new > p:nth-child(3){
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+    transform: translateY(255px);
+
+}
+.iphonese_banner > .w_1200 > .se_new > p:nth-child(4){
+    font-size: 20px;
+    padding-top: 20px;
+    transform: translateY(255px);
+
+}
+.more{
+    transform: translateY(255px);
+}
+.iphonese_banner > .w_1200 > .se_new > .more > input{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #0071e3;
+    border: none;
+    color: #fff;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.iphonese_banner > .w_1200 > .se_new > .more > a{
+    color: #0071e3;
+}
+.iphonese_banner > .w_1200 > .se_img img{
+    width: 50%;
+    height: 830px;
+    float: left;
+}

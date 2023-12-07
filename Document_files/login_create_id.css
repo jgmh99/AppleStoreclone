@@ -1,0 +1,106 @@
+body{
+    /* overflow-x: hidden; */
+    background-color: #fff
+   
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1200px; */
+    /* height: 100px; */
+    /* background-color: gray; */
+
+}
+.header_1{
+    width: 100%;
+    /* max-width: 1200px; */
+    height: calc(100% / 2);
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content:center;
+
+    color:#cecdcd;
+    background-color: gray;
+}
+.header_2{
+    width: 100%;
+    /* height: 70px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* height: calc(100% / 2); */
+    border-bottom: 1px solid;
+    /* padding-bottom: 20px; */
+}
+.header_2 p{
+    font-size: 14px;
+    line-height: 50px;
+}
+/* 페이지 마다 글자 영역 변경 필요 */
+.apple_id_create p {
+    color: rgb(109, 109, 109);
+}
+.id_banner{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.apple_id{margin-right: auto;}
+
+
+.logo,.header_1 > .store,.mac,.ipad,.iphone,.watch,.airpods,.tv,.enter,.header_1 > .acc,.header_1 > .help,.search,.bag{
+    width: calc(1350px / 13);    
+}
+.logo{
+    width: 32px;
+    background: url(../img/realapplelogo.png)no-repeat left / contain;
+    background-size: 32px 32px;
+}
+.search{
+    background: url(../img/black_search_icon.png)no-repeat center / contain;
+    background-size: 20px 20px;
+}
+.bag{
+    width: 20px;
+    background: url(../img/buy_bag.png)no-repeat right / contain;
+    background-size: 20px 20px;
+}                                    /* 여기까지 공통적인 헤더 영역 입니다. -복붙해서 쓰세요*/
+
+
+/* 회원가입 페이지! */
+#signup-form{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+fieldset{
+    /* border: none; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid;
+}
+fieldset section{
+    margin: 0 auto;
+}
+
+/* 푸터 */
+footer{
+    width: 100%;
+    background: rgb(101, 101, 101);
+}
+.footer_txt{
+    width: 70%;
+    height: 300px;
+    max-width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}

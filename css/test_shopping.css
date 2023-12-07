@@ -1,0 +1,216 @@
+body{
+    overflow-x: hidden;
+    /* background-color: rgb(245, 245, 247); */
+    background-color: #fff;
+    /* position: relative;   */
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1200px; */
+    height: 50px;
+    /* background-color: gray; */
+    background-color: rgb(192,192,192);
+}
+.header_1{
+    width: 100%;
+    max-width: 1200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: space-between;
+    
+}
+
+.logo,.header_1 > .store,.mac,.ipad,.iphone,.watch,.airpods,.tv,.enter,.header_1 > .acc_a,.header_1 > .login_a,.search,.bag{
+    width: calc(100% / 13);    
+}
+.header_1 > .header_banner:hover .shop_sub_menu {
+    display: flex;
+    z-index: 999999;
+    transform: scaleY(1);
+    transition: all 0.3s;
+    height: auto;
+    opacity: 1;
+}
+.header_banner {
+    position: relative;
+}
+.shop_sub_menu{
+    /* display: none; */
+    opacity: 0;
+    gap: 80px;
+    padding: 20px;
+    width: 1200px;
+    height: auto;
+    /* border: 1px solid red; */
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+
+    position: absolute;
+    position: fixed;
+
+    left: 14%;
+    top: 50px;
+    z-index: 999999;
+
+    transform: scaleY(0);
+    transform-origin: top;
+    /* transition: all 0.5s; */
+    
+}
+.shop_sub_menu ul li{
+    text-align: left;
+}
+.sub_title_s_txt{
+    font-size: 11px;
+    color: gray;
+}
+.sub_title_b_txt{
+    font-size: 17px;
+    font-weight: 900;
+}
+.inner_search_box{
+    width: 1150px;
+    height: 50px;
+}
+.search_txt{
+    outline: none;
+    border: none;
+    width: calc(100% - 60px);
+    height: 90%;
+    float: left;
+    font-size: 25px;
+}
+.logo{line-height: 70px;}
+
+.logo img{
+    width: 32px;
+    /* background: url(../img/realapplelogo.png)no-repeat left / contain; */
+    background-size: 32px 32px;
+    line-height: 70px;
+}
+.search{
+    background: url(../img/black_search_icon.png)no-repeat center / contain;
+    background-size: 20px 20px;
+}
+.bag{
+    width: 20px;
+    background: url(../img/buy_bag.png)no-repeat right / contain;
+    background-size: 20px 20px;
+}                                      /* 여기까지 공통적인 헤더 영역 입니다. -복붙해서 쓰세요*/
+/* 여기서 부터 작성 */
+.main_con{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    display: flex;
+}
+.item{
+    width: calc(100% / 2);
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.buy_item img{
+    width: 479px;
+    /* height: 289px; */
+    margin: 0 auto;
+}
+.buy_item{
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    position: absolute;
+    left: 0;
+}
+.buy_item_sec{
+    width: 100%;
+    display: flex;
+}
+.buy_item_l{
+    width: calc(100% / 2);
+    justify-content: center;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+}
+.buy_item_l p{font-size: 11px; text-align: center;}
+.buy_item_l svg{margin: 0 auto;}
+.buy_item_r{
+    width: calc(100% / 2);
+    justify-content: center;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+.buy_item_r p{font-size: 11px; text-align: center;}
+.buy_item_r svg{margin: 0 auto;}
+.itme_bot_txt{text-align: center; font-size: 11px;}
+
+.item_option{
+    width: calc(100% / 2);
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    
+}
+
+/* .s_option input{display: none;} */
+.s_option .chk{
+    width: 100%;
+    height: 80px;
+
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin: 20px 0;
+}
+.s_option label{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+}
+.plus_price{float: right;}
+
+.full_price{
+    position: fixed;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    background-color: gray;
+    height: 100px;
+}
+.price{width: 200px; float: right; border: 1px solid;}
+/*  */
+footer{
+    width: 100%;
+    background: rgb(101, 101, 101);
+}
+.footer_txt{
+    width: 70%;
+    height: 200px;
+    max-width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}

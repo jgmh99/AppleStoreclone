@@ -1,0 +1,316 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(245, 245, 247);
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1200px; */
+    height: 50px;
+    /* background-color: gray; */
+    background-color: rgb(192,192,192);
+}
+.header_1{
+    width: 100%;
+    max-width: 1200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: space-between;
+    
+}
+.header_2{
+    width: 100%;
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* height: calc(100% / 2); */
+    border-bottom: 1px solid;
+}
+.header_2 p{
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.apple_id_create p {
+    color: rgb(109, 109, 109);
+}
+.id_banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.apple_id{margin-right: auto;}
+
+
+.logo,.header_1 > .store,.mac,.ipad,.iphone,.watch,.airpods,.tv,.enter,.header_1 > .acc_a,.header_1 > .login_a,.search,.bag{
+    width: calc(100% / 13);    
+}
+.header_1 > .header_banner:hover .shop_sub_menu {
+    display: flex;
+    z-index: 999999;
+    transform: scaleY(1);
+    transition: all 0.3s;
+    height: auto;
+    opacity: 1;
+}
+.header_banner {
+    position: relative;
+}
+.shop_sub_menu{
+    /* display: none; */
+    opacity: 0;
+    gap: 80px;
+    padding: 20px;
+    width: 1200px;
+    height: auto;
+    /* border: 1px solid red; */
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+
+    position: absolute;
+    position: fixed;
+
+    left: 14%;
+    top: 50px;
+    z-index: 999999;
+
+    transform: scaleY(0);
+    transform-origin: top;
+    /* transition: all 0.5s; */
+    
+}
+.shop_sub_menu ul li{
+    text-align: left;
+}
+.sub_title_s_txt{
+    font-size: 11px;
+    color: gray;
+}
+.sub_title_b_txt{
+    font-size: 17px;
+    font-weight: 900;
+}
+.inner_search_box{
+    width: 1150px;
+    height: 50px;
+}
+.search_txt{
+    outline: none;
+    border: none;
+    width: calc(100% - 60px);
+    height: 90%;
+    float: left;
+    font-size: 25px;
+}
+.logo{line-height: 70px;}
+
+.logo img{
+    width: 32px;
+    /* background: url(../img/realapplelogo.png)no-repeat left / contain; */
+    background-size: 32px 32px;
+    line-height: 70px;
+}
+.search{
+    background: url(../img/black_search_icon.png)no-repeat center / contain;
+    background-size: 20px 20px;
+}
+.bag{
+    width: 20px;
+    background: url(../img/buy_bag.png)no-repeat right / contain;
+    background-size: 20px 20px;
+}                                  /* 여기까지 공통적인 헤더 영역 입니다. -복붙해서 쓰세요*/
+
+
+/* 회원가입 페이지! */
+
+.create_id{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+}
+.create_id_box1{
+    margin-top: 100px;
+}
+.box1_txt{
+    margin: 0 auto;
+    text-align: center;
+}
+.box1_name_input{
+   
+    width: 100%;
+
+    box-sizing: border-box;
+
+    /* margin: 0 auto; */
+    text-align: center;
+
+    display: flex;
+    gap: 10px;
+
+    position: relative;
+    /* margin-bottom: 30px; */
+
+}
+#user_first_name{
+    width: calc((100% - 10px)/2);
+    height: 50px;
+}
+#user_second_name{
+    width: calc((100% - 10px)/2);
+    height: 50px;
+}
+
+#select_country{
+    width: 100%;
+    height: 50px;
+}
+
+#user_birth{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    outline: none;
+}
+#user_id_make{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    
+}
+#user_pw_make,
+#user_pw_chk,
+#select_num,
+#box3_num{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    outline: none;
+}
+.box1_txt p a{color: rgb(0 102 204);}
+.box1_country_input p,
+.user_id_make_txt p,
+.box3_txt p{
+    font-size: 11px;
+    text-align: left;
+}
+#user_pw_make,
+#user_pw_chk{
+    position: relative;
+    /* border: 1px solid red; */
+}
+.chk_num{
+    /* text-align: center; */
+    /* line-height: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    line-height: 30px;
+}
+.chk_num p{
+    margin: 0 30px 0 0;
+}
+
+.anno_box{
+    width: 100%;
+    
+    box-sizing: border-box;
+}
+.announcement p,.announcement_2 p{
+    width: 90%;
+    font-size: 11px;
+    transform: translateX(7%);
+    
+}
+.submit_icon{
+    width: 35px;
+    height: 28px;
+    margin: 0 auto;
+}
+.submit_icon img{
+   width: 100%;
+   height: 100%;
+}
+.submit p{
+    text-align: center;
+    font-size: 11px;
+}
+.submit p a{
+    color: rgb(0 102 204);
+}
+hr{
+    margin: 40px 0;
+}
+input{
+    margin-top: 10px;
+}
+#submit_btn{width: 50px; height: 30px; background-color: rgb(0 102 204); color: #fff; margin: 0 auto; border: none; border-radius: 5px; display: block;}
+
+/* 에러 msg */
+.err_msg_name{
+   position: absolute;
+   top: 110%;
+   left: 0;
+   color: red;
+   opacity: 0;
+   font-size: 9px;
+}
+.box2_pw_input{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+.box2_id_input{
+    /* border: 1px solid red; */
+    position: relative;
+}
+.err_msg_pw{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    color: red;
+    opacity: 0;
+    font-size: 9px;
+}
+.err_msg_id{
+    position: absolute;
+    font-size: 9px;
+    left: 0;
+    color: red;
+
+    opacity: 0;
+    top: 70px;
+}
+.err_msg_num{
+    color: red;
+    font-size: 9px;
+    opacity: 0;
+}
+.err_msg_date{
+    color: red;
+    font-size: 9px;
+    opacity: 0;
+}
+/* 푸터 */
+footer{
+    width: 100%;
+    background: rgb(101, 101, 101);
+}
+.footer_txt{
+    width: 70%;
+    height: 300px;
+    max-width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}
