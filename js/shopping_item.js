@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     let list = `<div class="item">
                     <div class="buy_item">
-                    <img src="../img/${menu_array[cate_no]}/${ITEM.src}" alt="">
+                    <img src="./img/${menu_array[cate_no]}/${ITEM.src}" alt="">
                         <div class="buy_item_sec">
                             <div class="buy_item_l">
                                 <svg viewBox="0 0 35 35" class="as-svgicon as-svgicon-shipping as-svgicon-base as-svgicon-shippingbase" role="img" aria-hidden="true" width="35px" height="35px">

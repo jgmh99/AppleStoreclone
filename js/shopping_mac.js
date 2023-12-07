@@ -68,16 +68,16 @@ $(document).ready(function(){
                     <hr class="choose_hr">
                     <div class="item_box_size"><p>${ITEM.mac_size1}</p></div>
                     <div class="item_box_display"><p>${ITEM.mac_display1}</p></div> 
-                    <div class="item_box_chip"><img src="../img/${ITEM.mac_chip_src1}" alt=""><br>Apple M1 칩</div>
+                    <div class="item_box_chip"><img src="./img/${ITEM.mac_chip_src1}" alt=""><br>Apple M1 칩</div>
                     <div class="item_box_core"><p class="core_txt">8코어</p><br>CPU</div>
                     <div class="item_box_gcore"><p class="core_txt">7코어</p><br>GPU</div>
-                    <div class="item_box_memory"><img src="../img/${ITEM.memory_src}" alt=""><br><p>최대 16GB 통합 메모리</p></div>
+                    <div class="item_box_memory"><img src="./img/${ITEM.memory_src}" alt=""><br><p>최대 16GB 통합 메모리</p></div>
                     <div class="item_box_ssd"><p class="ssd_p1">2TB</p><p class="ssd_p2">구성 가능한 저장 장치 최대 용량</p></div>
-                    <div class="item_box_battery_time"><img src="../img/${ITEM.battery_src}" alt=""><br><p>${ITEM.battery_time1}</p></div>
-                    <div class="item_box_camera"><img src="../img/store_mac/cameta.png" alt=""><br><p>${ITEM.facetime1} FaaceTimeHD 카메라</p></div>
-                    <div class="item_box_speaker"><img src="../img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
+                    <div class="item_box_battery_time"><img src="./img/${ITEM.battery_src}" alt=""><br><p>${ITEM.battery_time1}</p></div>
+                    <div class="item_box_camera"><img src="./img/store_mac/cameta.png" alt=""><br><p>${ITEM.facetime1} FaaceTimeHD 카메라</p></div>
+                    <div class="item_box_speaker"><img src="./img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
                     <div class="item_box_weight"><p class="weight_p1">1.29Kg</p><p class="weight_p2">무게</p></div>
-                    <div class="item_box_login"><img src="../img/${ITEM.touchid1}" alt=""><p>Touch ID</p></div>
+                    <div class="item_box_login"><img src="./img/${ITEM.touchid1}" alt=""><p>Touch ID</p></div>
                 </div>
                 <div class="item_box2">
                     <div class="item_box_img"></div>
@@ -97,16 +97,16 @@ $(document).ready(function(){
                     <hr class="choose_hr">
                     <div class="item_box_size"><p>${ITEM.mac_size2}</p></div>
                     <div class="item_box_display"><p>${ITEM.mac_display2}</p></div> 
-                    <div class="item_box_chip"><img src="../img/${ITEM.mac_chip_src2}" alt=""><br>Apple M1 칩</div>
+                    <div class="item_box_chip"><img src="./img/${ITEM.mac_chip_src2}" alt=""><br>Apple M1 칩</div>
                     <div class="item_box_core"><p class="core_txt">8코어</p><br>CPU</div>
                     <div class="item_box_gcore"><p class="core_txt">7코어</p><br>GPU</div>
-                    <div class="item_box_memory"><img src="../img/${ITEM.memory_src}" alt=""><br><p>${ITEM.total_mamory2}</p></div>
+                    <div class="item_box_memory"><img src="./img/${ITEM.memory_src}" alt=""><br><p>${ITEM.total_mamory2}</p></div>
                     <div class="item_box_ssd"><p class="ssd_p1">2TB</p><p class="ssd_p2">구성 가능한 저장 장치 최대 용량</p></div>
-                    <div class="item_box_battery_time"><img src="../img/${ITEM.battery_src}"" alt=""><br><p>${ITEM.battery_time2}</p></div>
-                    <div class="item_box_camera"><img src="../img/store_mac/cameta.png" alt=""><br><p>${ITEM.facetime2} FaaceTimeHD 카메라</p></div>
-                    <div class="item_box_speaker"><img src="../img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
+                    <div class="item_box_battery_time"><img src="./img/${ITEM.battery_src}"" alt=""><br><p>${ITEM.battery_time2}</p></div>
+                    <div class="item_box_camera"><img src="./img/store_mac/cameta.png" alt=""><br><p>${ITEM.facetime2} FaaceTimeHD 카메라</p></div>
+                    <div class="item_box_speaker"><img src="./img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
                     <div class="item_box_weight"><p class="weight_p1">1.29Kg</p><p class="weight_p2">무게</p></div>
-                    <div class="item_box_login"><img src="../img/${ITEM.touchid1}" alt=""><p>Touch ID</p></div>
+                    <div class="item_box_login"><img src="./img/${ITEM.touchid1}" alt=""><p>Touch ID</p></div>
                 </div>
                 <div class="item_box3">
                     <div class="item_box_img"></div>
@@ -126,16 +126,16 @@ $(document).ready(function(){
                     <hr class="choose_hr">
                     <div class="item_box_size"><p>${ITEM.mac_size3}</p></div>
                     <div class="item_box_display"><p>${ITEM.mac_display3}</p></div> 
-                    <div class="item_box_chip"><img src="../img/${ITEM.mac_chip_src3}" alt=""><br>Apple M1 칩</div>
+                    <div class="item_box_chip"><img src="./img/${ITEM.mac_chip_src3}" alt=""><br>Apple M1 칩</div>
                     <div class="item_box_core"><p class="core_txt">8코어</p><br>CPU</div>
                     <div class="item_box_gcore"><p class="core_txt">7코어</p><br>GPU</div>
-                    <div class="item_box_memory"><img src="../img/${ITEM.memory_src}" alt=""><br><p>${ITEM.total_mamory3}</p></div>
+                    <div class="item_box_memory"><img src="./img/${ITEM.memory_src}" alt=""><br><p>${ITEM.total_mamory3}</p></div>
                     <div class="item_box_ssd"><p class="ssd_p1">2TB</p><p class="ssd_p2">구성 가능한 저장 장치 최대 용량</p></div>
-                    <div class="item_box_battery_time"><img src="../img/${ITEM.battery_src}"" alt=""><br><p>${ITEM.battery_time3}</p></div>
-                    <div class="item_box_camera"><img src="../img/${ITEM.camera_src}" alt=""><br><p>${ITEM.facetime3} FaaceTimeHD 카메라</p></div>
-                    <div class="item_box_speaker"><img src="../img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
+                    <div class="item_box_battery_time"><img src="./img/${ITEM.battery_src}"" alt=""><br><p>${ITEM.battery_time3}</p></div>
+                    <div class="item_box_camera"><img src="./img/${ITEM.camera_src}" alt=""><br><p>${ITEM.facetime3} FaaceTimeHD 카메라</p></div>
+                    <div class="item_box_speaker"><img src="./img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
                     <div class="item_box_weight"><p class="weight_p1">1.29Kg</p><p class="weight_p2">무게</p></div>
-                    <div class="item_box_login"><img src="../img/${ITEM.touchid2}" alt=""><p>Touch Bar 및 Touch ID</p></div>
+                    <div class="item_box_login"><img src="./img/${ITEM.touchid2}" alt=""><p>Touch Bar 및 Touch ID</p></div>
                 </div>
                 <div class="item_box4">
                     <div class="item_box_img"></div>
@@ -155,16 +155,16 @@ $(document).ready(function(){
                     <hr class="choose_hr">
                     <div class="item_box_size"><p>${ITEM.mac_size4}</p></div>
                     <div class="item_box_display"><p>${ITEM.mac_display4}</p></div> 
-                    <div class="item_box_chip4"><img src="../img/${ITEM.mac_chip_src4}" alt=""><br>Apple M1 칩</div>
+                    <div class="item_box_chip4"><img src="./img/${ITEM.mac_chip_src4}" alt=""><br>Apple M1 칩</div>
                     <div class="item_box_core"><p class="core_txt">8코어</p><br>CPU</div>
                     <div class="item_box_gcore"><p class="core_txt">7코어</p><br>GPU</div>
-                    <div class="item_box_memory"><img src="../img/${ITEM.memory_src}" alt=""><br><p>${ITEM.total_mamory4}</p></div>
+                    <div class="item_box_memory"><img src="./img/${ITEM.memory_src}" alt=""><br><p>${ITEM.total_mamory4}</p></div>
                     <div class="item_box_ssd"><p class="ssd_p1">2TB</p> <p class="ssd_p2">구성 가능한 저장 장치 최대 용량</p></div>
-                    <div class="item_box_battery_time"><img src="../img/${ITEM.battery_src}"" alt=""><br><p>${ITEM.battery_time4}</p></div>
-                    <div class="item_box_camera"><img src="../img/store_mac/cameta.png" alt=""><br><p>${ITEM.facetime4} FaaceTimeHD 카메라</p></div>
-                    <div class="item_box_speaker"><img src="../img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
+                    <div class="item_box_battery_time"><img src="./img/${ITEM.battery_src}"" alt=""><br><p>${ITEM.battery_time4}</p></div>
+                    <div class="item_box_camera"><img src="./img/store_mac/cameta.png" alt=""><br><p>${ITEM.facetime4} FaaceTimeHD 카메라</p></div>
+                    <div class="item_box_speaker"><img src="./img/${ITEM.sound_src}" alt=""><p>3 마이크 어레이<br>스테레오 스피커</p></div>
                     <div class="item_box_weight"><p class="weight_p1">1.29Kg</p><p class="weight_p2">무게</p></div>
-                    <div class="item_box_login"><img src="../img/${ITEM.touchid1}" alt=""><p>Touch ID</p></div>
+                    <div class="item_box_login"><img src="./img/${ITEM.touchid1}" alt=""><p>Touch ID</p></div>
                 </div>
             </div>
         </div>
